@@ -1,0 +1,141 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+   background-image: url(https://img.freepik.com/premium-photo/colorful-sneakers-shoes-collection-fitness-lifestyle-sneakers-shoe-mockup-colorful-white-footw_71956-39291.jpg?size=626&ext=jpg&ga=GA1.1.695708956.1724441541&semt=ais_hybrid);
+   background-size: cover;
+   background-position: center;
+   color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
+}
+
+.navbar .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    float: right;
+}
+
+.navbar .nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    color: #ff6b6b;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    color: purple;
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.hero .btn {
+    background-color: #ff6b6b;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1em;
+    border-radius: 5px;
+}
+
+/* Featured Products Section */
+.featured-products {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.featured-products h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+.products {
+    display: flex;
+    justify-content: baseline;
+}
+
+.product {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.product h3 {
+    height: 150px;
+    width: 200px;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.product p {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+
+
+.product .btn {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 0.9em;
+    border-radius: 5px;
+    
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 30px;
+}
